@@ -1,0 +1,237 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+#upBtn {
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+main {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: aliceblue;
+    display: none;
+}
+
+#main.active {
+    display: block;
+}
+
+section {
+    background-color: white;
+    padding: 20px 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
+}
+
+section:nth-child(1) {
+    padding: 20px 20px 20px;
+}
+
+section:nth-child(1) button > svg {
+    margin-right: -10px;
+}
+
+#topSec {
+    top: 16%;
+    left: 33%;
+}
+
+#topSec.topActive {
+    display: none;
+}
+
+#bottomSec {
+    top: 34%;
+    left: 52%;
+}
+
+#bottomSec.bottomActive {
+    display: none;
+}
+
+#topBtn {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#bottomBtn {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button > svg {
+    width: 12px;
+    height: 12px;
+}
+
+.btnDiv {
+    position: relative;
+}
+
+.bottomDiv {
+    position: relative;
+}
+
+.topIcon {
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 9px;
+}
+
+.topIcon > svg {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0px 0 0 10px;
+}
+
+h6 {
+    text-align: center;
+    color: #25254f;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 8px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -10px;
+    color: #25254f;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.btn1 {
+    background-color: white;
+    border: 1px solid #c00810;
+    padding: 5px 12px 6px;
+    font-weight: 700;
+    font-size: 8px;
+    font-weight: 600;
+    border-radius: 15px;
+    color: #c00810;
+}
+
+.btn2 {
+    background-color: #c00810;
+    border: none;
+    padding: 6px 13px 7px;
+    font-weight: 700;
+    font-size: 8px;
+    font-weight: 600;
+    border-radius: 15px;
+    color: white;
+}
+
+.bottomIcon {
+    background-color: aliceblue;
+    text-align: center;
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 11px;
+}
+
+.bottomIcon > svg {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0px 0 0 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto 0;
+    width: 82%;
+}
+
+input {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 1px 10px 5px;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    font-size: 7px;
+    color: #25254f;
+}
+
+.input button {
+    background-color: #c00810;
+    border: none;
+    padding: 6px 13px 7px;
+    font-weight: 700;
+    font-size: 8px;
+    font-weight: 600;
+    border-radius: 15px;
+    color: white;
+}
+
+
+
+@media (max-width: 950px) {
+    #main.active {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top {
+        position: static;
+    }
+
+    .bottom {
+        position: static;
+    }
+}
