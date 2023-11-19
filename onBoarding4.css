@@ -1,0 +1,107 @@
+body {
+    background-color: #383848;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+}
+
+section {
+    background-color: #1e353f;
+    width: 20%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.left .top {
+    background: linear-gradient(to right, #cb41b7, #a83898);
+}
+
+.left .cir span:nth-child(1) {
+    background-color: #a83898;
+}
+
+.middle .top {
+    background: linear-gradient(to right, #e83888, #e02898);
+}
+
+.middle .cir span:nth-child(2)  {
+    background-color: #e02898;
+}
+
+.right .top {
+    background: linear-gradient(to right, #9870c8, #9870d8);
+}
+
+.right .cir span:nth-child(3) {
+    background-color: #9870d8;
+}
+
+.top {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.top > span svg {
+    width: 70px;
+    height: 70px;
+}
+
+.wavy {
+    margin-top: -25px;
+    z-index: -1;
+}
+
+h5 {
+    color: white;
+    margin: 0;
+}
+
+p {
+    font-size: 10px;
+    color: white;
+}
+
+.wavy img {
+    width: 100%;
+}
+
+.cir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: -5px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.cir span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #222227;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+button {
+    background-color: #1c313a97;
+    margin: 40px 0 10px 10px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: gray;
+    font-size: 8px;
+}
+
+#middle {
+    display: none;
+}
+
+#right {
+    display: none;
+}
