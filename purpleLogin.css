@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to top right, #b374e0, #f6a2e1);
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px 20px 50px;
+    box-shadow: 0px 8px 10px #4314c27c;
+}
+
+.image {
+    width: 80px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+h5 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.name {
+    position: relative;
+    margin-top: 30px;
+}
+
+.name svg {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 25%;
+}
+
+input {
+    font-size: 12px;
+    padding: 10px 30px;
+    border: none;
+    border-bottom: 2px solid hsla(270, 84%, 64%, 0.3);
+    outline: none;
+}
+
+.passWd {
+    position: relative;
+    margin-top: 10px;
+}
+
+.passWd svg {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 25%;
+}
+
+.questn {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    outline: none;
+    border: none;
+}
+
+label {
+    color: #787888;
+}
+
+a {
+    text-decoration: none;
+    color: #f05892;
+}
+
+button {
+    display: block;
+    border: none;
+    padding: 15px 50px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;    
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    background-color: #a356f0;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.signup {
+    background-color: #f05892
+}
+
+main::before {
+    position: absolute;
+    top: -3%;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+main::after {
+    position: absolute;
+    top: -5%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main { 
+    display: block; 
+    position: relative; 
+    padding-left: 25px; 
+    margin-bottom: 15px; 
+    cursor: pointer; 
+    font-size: 10px; 
+} 
+
+input[type=checkbox] { 
+    visibility: hidden; 
+} 
+
+.geekmark { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 20px; 
+    width: 20px;
+    border: 2px solid #a356f0;
+    border-radius: 2px;
+    background-color: white; 
+} 
+
+.main:hover input ~ .geekmark { 
+    background-color: yellow; 
+} 
+
+.main input:active ~ .geekmark { 
+    background-color: red; 
+} 
+
+.main input:checked ~ .geekmark { 
+    background-color: rebeccapurple; 
+} 
+  
+.geekmark:after { 
+    content: ""; 
+    position: absolute; 
+    display: none; 
+} 
+  
+.main input:checked ~ .geekmark:after { 
+    display: block; 
+} 
+  
+.main .geekmark:after { 
+    left: 8px; 
+    bottom: 5px; 
+    width: 6px; 
+    height: 12px; 
+    border: solid white; 
+    border-width: 0 4px 4px 0; 
+    -webkit-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg); 
+    transform: rotate(45deg); 
+} 
