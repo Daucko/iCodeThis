@@ -3,4 +3,4 @@ Daily Challenge on iCodeThis
 
 # 21 / 11 / 2023
 
-Three files namely: _onBoarding4.html_, _onBoarding.css_ and _onBoarding.js_, have been created for different purposes. The _onBoarding.html_ creates the hypertext while the _onBoarding.css_ does the styling and of course, _onBording.js_ adds dynamism to the project.
+Three files namely: _simpleUserCards.html_, _simpleUserCards.css_ and _simpleUserCards.js_, have been created for different purposes. The _simpleUserCards.html_ creates the hypertext while the _simpleUserCards.css_ does the styling and of course, _simpleUserCards.js_ adds dynamism to the project.
