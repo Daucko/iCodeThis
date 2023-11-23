@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #202030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    width: 15%;
+}
+
+.top {
+    float: right;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #f8b000;
+    color: #f8b000;
+    margin-bottom: 10px;
+}
+
+.top > p {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+section {
+    background-color: #fff;
+    clear: both;
+    /* width: 12%; */
+    padding: 20px 20px 0;
+    border-radius: 7px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h6 {
+    color: #f8b000;
+}
+
+h6:hover {
+    animation: span 2s linear infinite;
+}
+
+@keyframes span {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+button {
+    background-color: #f8b000;
+    color: #fff;
+    width: 100%;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.setting {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.setting svg {
+    width: 16px;
+    height: 16px;
+}
+
+.icon-tabler-settings:hover {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.support {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.support svg {
+    width: 16px;
+    height: 16px;
+}
+
+.supportSvg:hover {
+    animation: growAndDisappear 2s linear infinite;
+}
+
+@keyframes growAndDisappear {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        transform: scale(1.5);
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+}
+
+.logout svg {
+    width: 16px;
+    height: 16px;
+}
