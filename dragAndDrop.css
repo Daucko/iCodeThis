@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #081038;
+}
+
+section {
+    background: linear-gradient(
+        #e3e3ec 0%,
+        #e3e3ec 35%,
+        #ffffff 35%,
+        #ffffff 100%
+    );
+    width: 50%;
+    margin: 20px auto;
+    position: absolute;
+}
+
+
+/* Grid card Styling Start */
+.top {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 70px 35px;
+
+    position: absolute;
+    top: 30px;
+    left: 25%;
+}
+
+.top article {
+    /* border: 2px solid red; */
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+
+    cursor: grabbing;
+}
+
+.top article:nth-child(even) p {
+    visibility: hidden;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+.top div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.top div span {
+    padding: 2px 2px 0;
+    cursor: pointer;
+}
+
+.top div span:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 2px 0;
+    border-radius: 3px;
+}
+
+.top div span svg {
+    width: 20px;
+    height: 20px;
+}
+
+.top div:nth-child(2) {
+    padding: 10px 5px;
+}
+
+.top h6 {
+    font-size: 9px;
+    color: #081038;
+}
+
+.top p {
+    font-size: 8px;
+    color: #fa2525;
+    text-align: center;
+    margin: 5px;
+}
+
+.top button {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #081038;
+    font-size: 8px;
+    border: none;
+    padding: 5px 10px;
+    width: 100%;
+}
+/* Grid Card Styling End  */
+
+
+/* Truncated Line Styling Start */
+:root {
+    --lh: 0.8rem;
+    --max-lines: 2;
+}
+  
+.top .truncate-overflow {
+    position: relative;
+    max-height: calc(var(--lh) * var(--max-lines));
+    overflow: hidden;
+    padding-right: 0rem;
+}
+
+.top .truncate-overflow::before {
+    position: absolute;
+    content: "...";
+    bottom: 3px;
+    right: 5px;
+}
+
+.top .truncate-overflow::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0rem;
+    height: 0rem;
+    background: white;
+}
+/* Truncated Line Styling End */
+
+/* Horizontal Cards Styling Start  */
+.bottom {
+    padding: 10px;
+    /* border: 2px solid red; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    position: absolute;
+    top: 51%;
+    left: 22%;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstLeft {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #808080;
+
+    height: 25px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.firstRight {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    gap: 20px;
+    /* padding-right: 10px; */
+}
+
+.plus {
+    background-color: #081038;
+    height: 40px;
+    width: 30px;
+    padding-top: 15px;
+    margin-top: -10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer
+}
+
+.plus svg {
+    width: 15px;
+    height: 15px;
+}
+
+.info {
+    display: flex;
+    gap: 5px;
+    align-items: center
+}
+
+.infoLeft {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 25px;
+    height: 25px;
+    padding-top: 2px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.infoLeft svg {
+    width: 15px;
+    height: 15px;
+}
+
+.infoRight {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.infoRight span:nth-child(1) {
+    font-size: 9px;
+    color: #808080;
+}
+
+.infoRight span:nth-child(2) svg {
+    width: 10px;
+    height: 10px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+.secondLeft h5 {
+    color: #081038;
+}
+
+.secondLeft p {
+    color: #081038;
+    font-size: 8px;
+}
+
+.secondRight {
+    display: flex;
+    gap: 10px;
+    color: #1f1ff0;
+}
+
+.secondRight span svg {
+    width: 12px;
+    height: 12px;
+}
+
+
+
+
+.third {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+#cardContainer {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+#cardContainer div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+#cardContainer div span {
+    padding: 2px 2px 0;
+    cursor: pointer;
+}
+
+#cardContainer div span:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 2px 0;
+    border-radius: 3px;
+}
+
+#cardContainer div span svg {
+    width: 20px;
+    height: 20px;
+}
+
+#cardContainer div:nth-child(2) {
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 80%;
+    margin: -30px 0 0 50px;
+}
+
+#cardContainer h6 {
+    font-size: 8px;
+    color: #081038;
+}
+
+#cardContainer p {
+    font-size: 8px;
+    color: #fa2525;
+    text-align: center;
+    margin: 5px;
+}
+
+#cardContainer button {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #081038;
+    font-size: 7px;
+    font-weight: bold;
+    border: none;
+    padding: 2px 5px;
+}
+/* Horizontal Card Styling End  */
