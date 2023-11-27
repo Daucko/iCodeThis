@@ -1,0 +1,164 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: #fff;
+    display: flex;
+    gap: 20px;
+    width: 25%;
+    padding: 0 25px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 7px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    text-align: center;
+    padding-top: 20px;
+    width: 25%;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stars {
+    margin-top: -7px;
+}
+
+.stars span svg {
+    width: 7px;
+    height: 7px;
+}
+
+.rating {
+    background-color: #09b709;
+    width: 20%;
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.right {
+    padding: 40px 0 30px;
+    width: 75%;
+}
+
+.rightFirst h5 {
+    color: #27278b;
+}
+
+.rightFirst p {
+    font-size: 10px;
+    font-weight: bold;
+    color: #b8b4b4;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mail span svg {
+    width: 12px;
+    height: 12px;
+}
+
+.mail span:nth-child(2) {
+    font-size: 12px;
+    font-weight: bold;
+    color: #27278b;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons span:nth-child(1) svg {
+    width: 15px;
+    height: 15px;
+}
+
+.icons span:nth-child(2) svg {
+    width: 15px;
+    height: 15px;
+}
+
+.icons span:nth-child(3) svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(234 88 12);
+}
+
+.numbers {
+    display: flex;
+    gap: 20px;
+    color: #27278b;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.numbers p {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.bio p {
+    font-size: 11px;
+    font-weight: 600;
+    color: #27278b;
+    padding: 20px 10px 0 0;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btns button {
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.btn1 {
+    background-color: #ff832a;
+    color: #fff;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: #b8b4b4;
+}
