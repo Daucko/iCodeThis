@@ -1,0 +1,168 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Pinky Header Styling Start  */
+header {
+    background-color: rgb(225 29 72);
+    color: #fff;
+    text-align: center;
+    padding: 10px 50px;
+    border-radius: 0 0 5px 5px;
+}
+
+header p {
+    font-size: 9px;
+}
+
+header h6 {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+header h6 span svg {
+    width: 7px;
+    height: 7px;
+}
+/* Pinky Header End  */
+
+
+/* Plan Options Styling Start  */
+.top {
+    color: #fff;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bill {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 9px;
+    margin-top: 20px;
+}
+
+.ppleBg {
+    background-color: #e11d48;
+    width: 30px;
+    height: 15px;
+    border-radius: 10px;
+    padding: 2px 0 0 1px;
+}
+
+.whtBg {
+    display: block;
+    background-color: #fff;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    z-index: 1;
+}
+/* Plan Option Styling End  */
+
+
+/* Plan Cards Styling Start */
+.bottom {
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 20px 10px;
+    width: 180px;
+    border-radius: 5px;
+    /* height: 50%; */
+}
+
+.fstP {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.scdP {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.scdP span {
+    font-size: 10px;
+}
+
+article:nth-child(3) .scdP {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+form select {
+    width: 100%;
+    background-color: transparent;
+    font-size: 11px;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.thdP {
+    font-size: 8px;
+    color: #e11d48;
+    padding-left: 20px;
+    margin: 5px 0 10px;
+}
+
+article:nth-child(1) ul {
+    margin: 30px 0 0;
+    padding-left: 20px;
+}
+
+article:nth-child(3) ul {
+    margin: 54px 0 0;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 9px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul li span svg {
+    width: 7px;
+    height: 7px;
+    fill: #e11d48;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #e11d48;
+    color: #fff;
+    font-size: 10px;
+    padding: 5px 20px;
+    margin: 30px auto 0;
+    display: block;
+    width: 74%;
+}
+
+article:nth-child(2) button {
+    background-color: #e11d48;
+}
+/* Plan Cards Styling End  */
