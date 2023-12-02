@@ -1,0 +1,166 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #187090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section {
+    background-color: #e8f0f8;
+    width: 42%;
+    padding: 40px 70px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section > p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.images img {
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.images div {
+    background-color: #fff;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.images div:nth-child(1) {
+    border: 2px solid #187090;
+}
+
+.images div:nth-child(1) span {
+    background-color: #187090;
+    color: #fff;
+    font-size: 7px;
+    padding: 3px 5px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.images div:nth-child(2) span {
+    color: #fff;
+    background-color: #e05848;
+    font-size: 7px;
+    padding: 3px 5px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.detailsImg {
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.detailsImg img {
+    width: 110px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.detailsImg span {
+    background-color: #187090;
+    color: #fff;
+    font-size: 7px;
+    padding: 3px 5px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.detailsText {
+    width: 230px;
+}
+
+.fstP {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.scdP {
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.stars span svg {
+    width: 13px;
+    height: 13px;
+    fill: #ffbf00;
+    stroke: #ffbf00;
+}
+
+.thdP {
+    font-size: 12px;
+}
+
+button {
+    background-color: #187090;
+    display: block;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    font-size: 8px;
+    padding: 5px 5px;
+    margin: 20px 0 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button span svg {
+    width: 10px;
+    height: 10px;
+    fill: #fff;
+}
