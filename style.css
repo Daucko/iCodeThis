@@ -1,0 +1,22 @@
+main {
+  background-color: #1a1d5f;
+}
+
+.conic {
+  background: conic-gradient(
+    #b868c8 141deg,
+    transparent 142deg 143deg,
+    #f43f5e 144deg 250deg,
+    transparent 251deg 252deg,
+    #d86008 253deg 321deg,
+    transparent 322deg 323deg,
+    #fde047 324deg 342deg,
+    transparent 343deg 344deg,
+    #5eead4 345deg 358deg,
+    transparent 359deg
+  );
+  height: 180px;
+  width: 180px;
+  /* border: 2px solid red; */
+  border-radius: 50%;
+}
