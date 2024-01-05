@@ -1,0 +1,24 @@
+body {
+  background: #b8c0c0;
+}
+
+.leftCard {
+  background-color: #e8e8e8;
+}
+
+.gradContainer {
+  background: radial-gradient(at 50% 50%, transparent);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid red;
+  /* text-align: center; */
+}
+
+.conicGrad {
+  background: conic-gradient(#5060c0 30deg, #98c8e0 30deg 330deg);
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin: auto;
+}
