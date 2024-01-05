@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#304048] w-full h-screen flex justify-center items-center">
+    <div class="w-[23%] shadow-2xl">
+      <form class="bg-[#485058]">
+        <div class="flex justify-end m-0 display">
+          <input
+            type="text"
+            class="text-right text-[20px] flex-1 h-[70px] p-5"
+            name="display"
+            id="display"
+          />
+        </div>
+        <div class="grid grid-cols-4 gap-0">
+          <input
+            type="button"
+            value="DE"
+            class="text-white p-5 border-b-2 border-[#9b9b9b]/25"
+            onclick="display.value = display.value.toString().slice(0,-1)"
+          />
+          <input
+            type="button"
+            value="%"
+            class="text-white border-2 border-[#9b9b9b]/25"
+            onclick="display.value += '%'"
+          />
+          <input
+            type="button"
+            value="/"
+            class="text-white p-5 border-2 border-[#9b9b9b]/25"
+            onclick="display.value += '/'"
+          />
+          <input
+            type="button"
+            value="-"
+            class="text-white p-5 border-b-2 border-[#9b9b9b]/25"
+            onclick="display.value += '-'"
+          />
+          <input
+            type="button"
+            value="7"
+            class="text-white p-5 border-b-2 border-[#9b9b9b]/25"
+            onclick="display.value += '7'"
+          />
+          <input
+            type="button"
+            value="8"
+            class="text-white p-5 border-2 border-[#9b9b9b]/25"
+            onclick="display.value += '8'"
+          />
+          <input
+            type="button"
+            value="9"
+            class="text-white p-5 border-2 border-[#9b9b9b]/25"
+            onclick="display.value += '9'"
+          />
+          <input
+            type="button"
+            value="X"
+            class="text-white p-5 border-b-2 border-[#9b9b9b]/25"
+            onclick="display.value += '*'"
+          />
+          <input
+            type="button"
+            value="4"
+            class="text-white p-5 border-b-2 border-[#9b9b9b]/25"
+            onclick="display.value += '4'"
+          />
+          <input
+            type="button"
+            value="5"
+            class="text-white p-5 border-2 border-[#9b9b9b]/25"
+            onclick="display.value += '5'"
+          />
+          <input
+            type="button"
+            value="6"
+            class="text-white p-5 border-2 border-[#9b9b9b]/25"
+            onclick="display.value += '6'"
+          />
+          <input
+            type="button"
+            value="+"
+            class="text-white p-5 border-b-2 border-[#9b9b9b]/25"
+            onclick="display.value += '+'"
+          />
+          <input
+            type="button"
+            value="1"
+            class="text-white p-5 border-b-2 border-[#9b9b9b]/25"
+            onclick="display.value += '1'"
+          />
+          <input
+            type="button"
+            value="2"
+            class="text-white p-5 border-2 border-[#9b9b9b]/25"
+            onclick="display.value += '2'"
+          />
+          <input
+            type="button"
+            value="3"
+            class="text-white p-5 border-2 border-[#9b9b9b]/25"
+            onclick="display.value += '3'"
+          />
+          <input
+            type="button"
+            value="AC"
+            class="text-white p-5 border-b-2 border-[#9b9b9b]/25"
+            onclick="display.value = ''"
+          />
+          <input
+            type="button"
+            value="0"
+            class="text-white p-5 border-b-2 border-[#9b9b9b]/25"
+            onclick="display.value += '0'"
+          />
+          <input
+            type="button"
+            value="."
+            class="text-white p-5 border-2 border-[#9b9b9b]/25"
+            onclick="display.value += '.'"
+          />
+          <input
+            type="button"
+            value="="
+            class="bg-[#d01860] text-white col-span-2 p-5 border-2 border-[#9b9b9b]/25"
+            onclick="display.value = eval(display.value)"
+          />
+        </div>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
