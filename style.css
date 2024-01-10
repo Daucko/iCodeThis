@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  border: 2px solid red;
+}
+
+.top {
+  background-color: rgb(17, 94, 195);
+  position: relative;
+}
+
+.down {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.down div {
+  display: flex;
+}
