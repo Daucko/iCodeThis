@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tekkie Town</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="w-100">
+    <!-- Navigation Bar Starts -->
+    <nav class="navbar navbar-expand-md nav">
+      <div class="container-fluid nav-container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img
+            src="./images/Site-logo.svg"
+            alt="Tekkie Town"
+            width="170"
+            height="170"
+          />
+        </a>
+
+        <div class="collapse navbar-collapse ms-2" id="navbarTogglerDemo03">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link active text-white small-nav-text"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a
+                class="nav-link dropdown-toggle text-white small-nav-text"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >MEN</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a
+                class="nav-link dropdown-toggle text-white small-nav-text"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >WOMEN</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a
+                class="nav-link dropdown-toggle text-white small-nav-text"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >YOUTH</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a
+                class="nav-link dropdown-toggle text-white small-nav-text"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >JUNIORS</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a
+                class="nav-link dropdown-toggle text-white small-nav-text"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >SPORT</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link disabled text-white small-nav-text"
+                >OFFERS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link disabled text-white small-nav-text mx-2"
+                >STORE CREDIT</a
+              >
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a
+                class="nav-link dropdown-toggle text-white small-nav-text"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >WE ARE YOU</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex justify-content-center gap-4 icons me-4">
+          <a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-search"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+              <path d="M21 21l-6 -6" /></svg
+          ></a>
+          <a
+            ><svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M15 7C15 8.65685 13.6569 10 12 10C10.3431 10 9 8.65685 9 7C9 5.34315 10.3431 4 12 4C13.6569 4 15 5.34315 15 7Z"
+                  stroke=""
+                  stroke-width="2"
+                ></path>
+                <path
+                  d="M5 19.5C5 15.9101 7.91015 13 11.5 13H12.5C16.0899 13 19 15.9101 19 19.5V20C19 20.5523 18.5523 21 18 21H6C5.44772 21 5 20.5523 5 20V19.5Z"
+                  stroke=""
+                  stroke-width="2"
+                ></path>
+              </g></svg
+          ></a>
+          <a
+            ><svg
+              viewBox="0 -1 32 32"
+              version="1.1"
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+              fill="#ffffff"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>cart</title>
+                <desc>Created with Sketch Beta.</desc>
+                <defs></defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                  sketch:type="MSPage"
+                >
+                  <g
+                    id="Icon-Set"
+                    sketch:type="MSLayerGroup"
+                    transform="translate(-464.000000, -724.000000)"
+                    fill="#ffffff"
+                  >
+                    <path
+                      d="M488,750 C486.896,750 486,750.896 486,752 C486,753.104 486.896,754 488,754 C489.104,754 490,753.104 490,752 C490,750.896 489.104,750 488,750 L488,750 Z M478,750 C476.896,750 476,750.896 476,752 C476,753.104 476.896,754 478,754 C479.104,754 480,753.104 480,752 C480,750.896 479.104,750 478,750 L478,750 Z M491,744 C491,745.104 490.104,746 489,746 L478,746 C476.896,746 476,745.104 476,744 L474.333,734 L493.5,734 L491,744 L491,744 Z M473.97,732 L471.475,724 L465,724 C464.447,724 464,724.448 464,725 C464,725.553 464.447,726 465,726 L470,726 L472.011,732 L472,732 L474,744 C474,746.209 475.791,748 478,748 L489,748 C491.209,748 493,746.209 493,744 L496,732 L473.97,732 L473.97,732 Z"
+                      id="cart"
+                      sketch:type="MSShapeGroup"
+                    ></path>
+                  </g>
+                </g>
+              </g></svg
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navigation Bar Ends -->
+
+    <!-- All Variants Advert Starts -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div
+          class="carousel-item active"
+          data-bs-interval="2000 position-relative"
+        >
+          <img
+            src="./images/all-variants-advert-01.png"
+            height="430"
+            class="d-block w-100"
+            alt="Festive Savings"
+            style="object-fit: cover"
+          />
+          <a
+            href="#"
+            class="btn btn-light rounded-0 px-5 py-3 position-absolute btn-1"
+            >SHOP NOW</a
+          >
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="./images/all-variants-advert-02.jpg"
+            height="430"
+            class="d-block w-100"
+            alt="Back To School"
+            style="object-fit: cover"
+          />
+          <a
+            href="#"
+            class="btn btn-light rounded-0 px-5 py-3 position-absolute btn-1"
+            >SHOP NOW</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- All Variants Advert Ends -->
+
+    <!-- Sneakers Pictures Starts -->
+    <div class="container-fluid my-4 p-2 overflow-hidden pictures-row">
+      <div class="row row-cols-1 row-cols-md-4 mx-auto">
+        <div class="col-12 col-md-4 position-relative me-0 men-sneakers">
+          <img
+            src="./images/sneakers-01.webp"
+            height="465"
+            width="472"
+            alt=""
+          />
+          <h2 class="sneakers-txt position-absolute text-center">
+            <a href="#">MEN'S <br />SNEAKERS</a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="row row-cols-2 row-cols-md-1 sneakers-fst">
+            <div class="col col-md-12 position-relative adidas">
+              <img
+                src="./images/sneakers-02.jpg"
+                height="228"
+                width="245"
+                alt=""
+              />
+              <h2 class="sneakers-txt position-absolute text-center">
+                <a href="#">ADIDAS</a>
+              </h2>
+            </div>
+            <div class="col col-md-12 position-relative mt-2 kids">
+              <img
+                src="./images/sneakers-03.webp"
+                height="228"
+                width="245"
+                alt=""
+              />
+              <h2 class="sneakers-txt position-absolute text-center">
+                <a href="#">KIDS</a>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 position-relative women-sneakers">
+          <img
+            src="./images/sneakers-04.webp"
+            height="465"
+            width="472"
+            alt=""
+          />
+          <h2 class="sneakers-txt position-absolute text-center h2-4">
+            <a href="#">WOMEN'S SNEAKERS</a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="row row-cols-2 row-cols-md-1 sneakers-fst">
+            <div class="col-6 col-md-12 position-relative adidas">
+              <img
+                src="./images/sneakers-05.webp"
+                height="228"
+                width="245"
+                alt=""
+              />
+              <h2 class="sneakers-txt position-absolute text-center h2-5">
+                <a href="#">NIKE</a>
+              </h2>
+            </div>
+            <div class="col-6 col-md-12 position-relative mt-2 kids">
+              <img
+                src="./images/sneakers-06.webp"
+                height="228"
+                width="245"
+                alt=""
+              />
+              <h2 class="sneakers-txt position-absolute text-center h2-6">
+                <a href="#">UMBRO</a>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sneakers Pictures Ends     -->
+
+    <!-- New Drops Trainers Pictures Starts   -->
+    <div class="container-fluid overflow-hidden" style="color: #00205b">
+      <h6
+        class="bg-warning text-center py-4 mt-o mb-5"
+        style="font-size: 15px; color: #00205b"
+      >
+        FREE DELIVERY ON ALL ORDERS OVER R500
+      </h6>
+      <h4 class="text-center fw-bold mb-4">NEW DROPS</h4>
+      <ul class="d-flex justify-content-center gap-3">
+        <li class="">WOMEN</li>
+        <li class="">MEN</li>
+        x
+        <li class="">YOUTH</li>
+        <li class="">JUNIORS</li>
+      </ul>
+      <div class="trainers-container">
+        <button class="btn-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-chevron-left"
+            width="50"
+            height="50"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M15 6l-6 6l6 6" />
+          </svg>
+        </button>
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="trainers carousel-inner" style="text-align: center">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <div
+                class="d-block w-100 d-flex justify-content-start gap-2 w-100 ms-4"
+              >
+                <a href="#"
+                  ><div class="card border-0">
+                    <img
+                      src="./images/new-drops-01.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-3" style="font-size: 13px">
+                        Nike Women's Juniper Trail 2 Next Nature Trail Running
+                        Pink/pink
+                      </p>
+                      <p
+                        class="card-text"
+                        style="font-size: 12px; margin-top: -10px"
+                      >
+                        NIKE
+                      </p>
+                      <h6
+                        class="card-text fw-bold text-dark"
+                        style="margin-top: -10px; font-size: 16px"
+                      >
+                        R 1,799.95
+                      </h6>
+                    </div>
+                  </div></a
+                >
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/new-drops-02.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-3" style="font-size: 13px">
+                        Waffle debut Vintage
+                      </p>
+                      <p
+                        class="card-text"
+                        style="font-size: 12px; margin-top: -10px"
+                      >
+                        NIKE
+                      </p>
+                      <h6
+                        class="card-text fw-bold text-dark"
+                        style="margin-top: -10px; font-size: 16px"
+                      >
+                        R 1,599.95
+                      </h6>
+                    </div>
+                  </div></a
+                >
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/new-drops-03.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-3" style="font-size: 13px">
+                        Air Max Intrlk Lite
+                      </p>
+                      <p
+                        class="card-text"
+                        style="font-size: 12px; margin-top: -10px"
+                      >
+                        NIKE
+                      </p>
+                      <h6
+                        class="card-text fw-bold text-dark"
+                        style="margin-top: -10px; font-size: 16px"
+                      >
+                        R 1,599.95
+                      </h6>
+                    </div>
+                  </div></a
+                >
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/new-drops-04.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-3" style="font-size: 13px">
+                        Waffle Debut
+                      </p>
+                      <p
+                        class="card-text"
+                        style="font-size: 12px; margin-top: -10px"
+                      >
+                        NIKE
+                      </p>
+                      <h6
+                        class="card-text fw-bold text-dark"
+                        style="margin-top: -10px; font-size: 16px"
+                      >
+                        R 1,399.95
+                      </h6>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div
+                class="d-block w-100 d-flex justify-content-start gap-2 ms-4"
+              >
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/new-drops-05.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-3" style="font-size: 13px">
+                        Asics Women's Gel Game 9 Court White/blue
+                      </p>
+                      <p
+                        class="card-text"
+                        style="font-size: 12px; margin-top: -10px"
+                      >
+                        ASICS
+                      </p>
+                      <h6
+                        class="card-text fw-bold text-dark"
+                        style="margin-top: -10px; font-size: 16px"
+                      >
+                        R 1,599.95
+                      </h6>
+                    </div>
+                  </div></a
+                >
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/new-drops-06.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-3" style="font-size: 13px">
+                        Stylecat Sleek
+                      </p>
+                      <p
+                        class="card-text"
+                        style="font-size: 12px; margin-top: -10px"
+                      >
+                        PUMA
+                      </p>
+                      <h6
+                        class="card-text fw-bold text-dark"
+                        style="margin-top: -10px; font-size: 16px"
+                      >
+                        R 329.95
+                      </h6>
+                    </div>
+                  </div></a
+                >
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/new-drops-01.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-3" style="font-size: 13px">
+                        Nike Women's Juniper Trail 2 Next Nature Trail Running
+                        Pink/pink
+                      </p>
+                      <p
+                        class="card-text"
+                        style="font-size: 12px; margin-top: -10px"
+                      >
+                        NIKE
+                      </p>
+                      <h6
+                        class="card-text fw-bold text-dark"
+                        style="margin-top: -10px; font-size: 16px"
+                      >
+                        R 1,799.95
+                      </h6>
+                    </div>
+                  </div></a
+                >
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/new-drops-02.webp"
+                      alt=""
+                      class="card-img-top"
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-3" style="font-size: 13px">
+                        Waffle debut Vintage
+                      </p>
+                      <p
+                        class="card-text"
+                        style="font-size: 12px; margin-top: -10px"
+                      >
+                        NIKE
+                      </p>
+                      <h6
+                        class="card-text fw-bold text-dark"
+                        style="margin-top: -10px; font-size: 16px"
+                      >
+                        R 1,599.95
+                      </h6>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-chevron-right"
+            width="50"
+            height="50"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 6l6 6l-6 6" />
+          </svg>
+        </button>
+      </div>
+      <button
+        type="button"
+        class="btn btn-warning text-white fs-5 d-block mx-auto my-5 rounded-0 py-3 px-4"
+      >
+        View all
+      </button>
+    </div>
+    <!-- Trainer Pictures Ends  -->
+
+    <!-- Diff-Sports Starts  -->
+    <div class="container-fluid px-2 my-5 pictures-row">
+      <div class="row row-cols-1 row-cols-md-4 g-0 mx-auto">
+        <div class="col-12 col-md-4 position-relative me-0 men-sneakers">
+          <img
+            src="./images/diff-sports-01.webp"
+            height="700"
+            width="472"
+            alt=""
+            style="object-fit: cover"
+          />
+          <h2 class="sneakers-txt position-absolute text-center">
+            <a href="#">ROAD <br />RUNNING</a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="row row-cols-2 row-cols-md-1 sneakers-fst">
+            <div class="col col-md-12 position-relative adidas">
+              <img
+                src="./images/diff-sports-02.webp"
+                height="346"
+                width="245"
+                alt=""
+                style="object-fit: cover"
+              />
+              <h2 class="sneakers-txt position-absolute text-center">
+                <a href="#">SPORT</a>
+              </h2>
+            </div>
+            <div class="col col-md-12 position-relative mt-2 kids">
+              <img
+                src="./images/diff-sports-03.webp"
+                height="346"
+                width="245"
+                alt=""
+                style="object-fit: cover"
+              />
+              <h2
+                class="sneakers-txt position-absolute text-center outdoor-txt"
+              >
+                <a href="#">OUTDOOR</a>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 position-relative women-sneakers">
+          <img
+            src="./images/diff-sports-04.webp"
+            height="700"
+            width="472"
+            alt=""
+            style="object-fit: cover"
+          />
+          <h2 class="sneakers-txt position-absolute text-center h2-4">
+            <a href="#">TRAIL <br />RUNNING</a>
+          </h2>
+        </div>
+        <div class="col-12 col-md-2">
+          <div class="row row-cols-2 row-cols-md-1 sneakers-fst">
+            <div class="col-6 col-md-12 position-relative adidas">
+              <img
+                src="./images/diff-sports-05.webp"
+                height="346"
+                width="245"
+                alt=""
+                style="object-fit: cover"
+              />
+              <h2
+                class="sneakers-txt position-absolute text-center h2-5 football-txt"
+              >
+                <a href="#">FOOTBALL</a>
+              </h2>
+            </div>
+            <div class="col-6 col-md-12 position-relative mt-2 kids">
+              <img
+                src="./images/diff-sports-06.webp"
+                height="346"
+                width="245"
+                alt=""
+                style="object-fit: cover"
+              />
+              <h2 class="sneakers-txt position-absolute text-center">
+                <a href="#"></a>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Diff-Sports Ends  -->
+
+    <!-- Logos Starts  -->
+    <div class="container-fluid overflow-hidden">
+      <div class="position-relative">
+        <img src="./images/shop-now-pay-later.webp" alt="" class="w-100" />
+        <button
+          class="btn btn-warning text-white border border-light rounded-0 px-5 py-3 position-absolute btn-2"
+        >
+          FIND OUT MORE
+        </button>
+      </div>
+      <div class="logos-container">
+        <button class="btn-3" id="btn-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-chevron-left"
+            width="50"
+            height="50"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M15 6l-6 6l6 6" />
+          </svg>
+        </button>
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div
+            class="d-flex justify-content-start gap-5 logos carousel-inner"
+            id="logos"
+          >
+            <div class="carousel-item active ps-3" data-bs-interval="2000">
+              <a href="#"
+                ><img
+                  src="./images/adidas-logo.svg"
+                  alt="adidas-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/airwalk-logo.svg"
+                  alt="airwalk-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/asics-logo.svg"
+                  alt="asics-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img src="./images/cat-logo.svg" alt="cat-brand" class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/code-logo.svg"
+                  alt="code-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/converse-logo.svg"
+                  alt="converse-brand"
+                  class="mx-3"
+              /></a>
+            </div>
+            <div class="carousel-item ps-3" data-bs-interval="2000">
+              <a href="#"
+                ><img
+                  src="./images/crocs-logo.svg"
+                  alt="crocs-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/havaianas-logo.svg"
+                  alt="havaianas-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/hi-tek-logo.svg"
+                  alt="hi-tek-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/ipanema-logo.svg"
+                  alt="ipanema-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/merrell-logo.svg"
+                  alt="marell-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/newbalance-logo.svg"
+                  alt="newbalance-brand"
+                  class="mx-3"
+              /></a>
+            </div>
+            <div class="carousel-item ps-3" data-bs-interval="2000">
+              <a href="#"
+                ><img
+                  src="./images/nike-logo.svg"
+                  alt="nike-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/puma-logo.svg"
+                  alt="puma-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/reebok-logo.svg"
+                  alt="reebok-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/salomon-logo.svg"
+                  alt="salomon-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/tomy-logo.svg"
+                  alt="tomy-brand"
+                  class="mx-3"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./images/umbro-logo.svg"
+                  alt="umbro-brand"
+                  class="mx-3"
+              /></a>
+            </div>
+            <!-- <img src="./images/underarmour-logo.svg" alt="underarmour-brand">
+          <img src="./images/vans-logo.svg" alt="vans-logo"> -->
+          </div>
+        </div>
+        <button class="btn-4" id="btn-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-chevron-right"
+            width="50"
+            height="50"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 6l6 6l-6 6" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Logos Ends  -->
+
+    <!-- We are Real Starts  -->
+    <div class="container-fluid position-relative">
+      <img
+        src="./images/we-are-real.webp"
+        alt="We Are You"
+        class="d-block w-100"
+      />
+      <button class="btn btn-light rounded-0 px-5 py-3 position-absolute btn-5">
+        FIND OUT MORE
+      </button>
+    </div>
+    <!-- We are Real Ends  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

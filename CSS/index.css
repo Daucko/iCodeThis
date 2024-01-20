@@ -1,0 +1,208 @@
+* {
+  padding: 0 !important;
+}
+
+h4 a {
+  text-decoration: none;
+  color: #00205b;
+}
+
+/* Navigation Styling  Start*/
+.nav {
+  background-color: #00205b;
+  height: 75px;
+}
+
+.small-nav-text {
+  font-size: 12px !important;
+  letter-spacing: 1px !important;
+}
+
+.icons a {
+  cursor: pointer;
+}
+
+.icons a svg:hover {
+  stroke: #ffc107 !important;
+}
+
+.icons a svg {
+  stroke: #fff;
+}
+
+.icons a:nth-child(3) svg {
+  fill: #fff !important;
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  color: #ffc107 !important;
+}
+/* Navigation Styling End  */
+
+/* First Shop Now Button Styling Start */
+.btn-1 {
+  z-index: 1 !important;
+  bottom: 8%;
+  right: 10%;
+}
+/* First Shop Now Button Styling End  */
+
+/* Sneakers and Different Sports Styling Start  */
+.sneakers-txt {
+  z-index: 1 !important;
+  bottom: 43%;
+  right: 40%;
+  font-weight: bold;
+}
+
+.sneakers-txt a {
+  text-decoration: none;
+  color: white;
+}
+
+.h2-4 {
+  left: 35%;
+}
+
+.h2-5 {
+  left: 30% !important;
+}
+
+.h2-6 {
+  left: 25% !important;
+}
+
+.adidas {
+  margin-right: -10px !important;
+}
+
+.football-txt {
+  left: 18% !important;
+}
+
+.outdoor-txt {
+  left: 15% !important;
+}
+/* Sneakers and Different Sports Styling End  */
+
+/* New Drops Trainers Styling Start  */
+.active a {
+  text-decoration: none;
+  color: #00205b;
+}
+
+.card {
+  width: 320px !important;
+  border: none !important;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+}
+
+.trainers img {
+  width: 320px !important;
+  height: 300px !important;
+}
+
+.trainers-container {
+  /* margin: 50px 0px; */
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 5vw 90vw 5vw;
+}
+/* New Drops Trainers Styling End  */
+
+/* Logos Styling Start */
+.logos-container {
+  margin: 50px 0px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 5vw 90vw 5vw;
+}
+
+.btn-3,
+.btn-4 {
+  border: none;
+  background-color: white !important;
+  z-index: 1;
+}
+
+.btn-3 > svg,
+.btn-4 > svg {
+  width: 50px;
+  height: 50px;
+}
+
+.logos img {
+  height: 180px;
+  width: 180px;
+}
+
+.img-1 {
+  z-index: -1;
+}
+
+.btn-2,
+.btn-5 {
+  z-index: 1 !important;
+  bottom: 8%;
+  left: 10%;
+}
+/* Logos Styling End */
+
+/* All Buttons Hover Effect Styling  */
+.btn-1:hover,
+/* .btn-2:hover, */
+.btn-3:hover,
+.btn-4:hover,
+.btn-5:hover {
+  transform: scale(1.1) !important;
+  background-color: white !important;
+}
+
+/* Breakpoints Settings  */
+@media (max-width: 767px) {
+  nav {
+    height: auto !important;
+  }
+
+  .nav-container {
+    margin-top: -50px !important;
+  }
+
+  .nav-item {
+    margin: 10px 0px !important;
+  }
+
+  .men-sneakers > img,
+  .women-sneakers > img {
+    width: 100vw !important;
+    object-fit: cover !important;
+  }
+  .sneakers-fst div > img {
+    width: 47vw !important;
+    object-fit: cover !important;
+    margin-right: 20px !important;
+  }
+
+  .pictures-row {
+    margin-right: 5vw !important;
+  }
+
+  .sneakers-fst {
+    display: flex !important;
+    width: 100vw;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+  }
+
+  .adidas {
+    margin-top: 8px !important;
+  }
+}
